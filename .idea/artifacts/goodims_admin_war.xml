@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="goodims_admin:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>goodims_admin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="goodims.war">
+      <element id="artifact" artifact-name="goodims_admin:war exploded" />
+    </root>
+  </artifact>
+</component>

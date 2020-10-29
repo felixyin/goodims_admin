@@ -1,0 +1,46 @@
+<div class="hidden-print" id="social-buttons">
+    <div class="container">
+        <form action="https://formkeep.com/f/ba101f5b69f0" id="newsletter" method="post">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2 col-sm-6">
+                    <div class="form-group margin-bottom">
+                        <input class="form-control" id="email" name="email" placeholder="Enter your email address&hellip;"
+                               required type="email">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <button class="btn btn-success btn-block margin-bottom-lg" data-content="We'll send you updates on new Font Awesome releases, icons, and other stuff that we're working on. We won't spam you. Scout's honor."
+                            data-placement="top" data-toggle="popover" data-trigger="hover"
+                            title="Stay up to date with the Awesome"
+                            type="submit">
+                        Subscribe to Font Awesome Updates&nbsp;&nbsp;<i class="fa fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <ul class="list-inline">
+            <li>
+                <iframe allowtransparency="true"
+                        class="github-btn"
+                        frameborder="0" height="20px" scrolling="0" src="https://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=watch&count=true" width="100px"></iframe>
+            </li>
+            <li>
+                <iframe allowtransparency="true"
+                        class="github-btn"
+                        frameborder="0" height="20px" scrolling="0" src="https://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=fork&count=true" width="102px"></iframe>
+            </li>
+            <li class="follow-btn">
+                <a class="twitter-follow-button" data-link-color="#0069D6"
+                   data-show-count="true" href="https://twitter.com/{{ site.fontawesome.twitter }}">Follow @{{ site.fontawesome.twitter }}</a>
+            </li>
+            <li class="tweet-btn hidden-phone">
+                <a class="twitter-share-button" data-count="horizontal" data-counturl="{{ site.fontawesome.legacy_url }}"
+                   data-related="{{ site.fontawesome.author.twitter }}:Creator of Font Awesome"
+                   data-text="Font Awesome, the iconic font and CSS framework" data-url="{{ site.fontawesome.url }}"
+                   data-via="{{ site.fontawesome.twitter }}"
+                   href="https://twitter.com/share">Tweet</a>
+            </li>
+        </ul>
+    </div>
+</div>
