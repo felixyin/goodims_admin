@@ -24,7 +24,7 @@
 				<span class="icon-bar"></span>
 			</button>
 
-			<a class="navbar-brand J_menuItem"  href="${ctx}/home">JeePlus </a>
+			<a class="navbar-brand J_menuItem"  href="${ctx}/home">Qtrj </a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<form class="navbar-form navbar-left" role="search">

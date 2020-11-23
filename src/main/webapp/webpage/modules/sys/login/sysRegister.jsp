@@ -225,7 +225,7 @@
 									<input name="ck1" type="checkbox" />
 									<span class="lbl">
 										我接受
-										<a href="#"><font  color="white">《JeePlus用户注册协议》</font></a>
+										<a href="#"><font  color="white">《Qtrj用户注册协议》</font></a>
 									</span>
 									<label id="ck1-error" class="error" for="ck1" style="display: none;">必须接受用户协议</label>
 								</label>

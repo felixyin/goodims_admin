@@ -40,7 +40,7 @@
 				<span class="icon-bar"></span>
 			</button>
 
-			<a class="navbar-brand J_menuItem" href="${ctx}/home" data-index="0">JeePlus快速开发框架</a>
+			<a class="navbar-brand J_menuItem" href="${ctx}/home" data-index="0">Qtrj快速开发框架</a>
 		</div>
 	</div>
 	<div class="navbar-container container-fluid">
