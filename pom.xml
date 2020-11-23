@@ -55,54 +55,29 @@
         <downloadSources>true</downloadSources>
 
     </properties>
-	
-	<!-- 设定仓库 -->
-	<repositories>
-		<repository>
-			<id>central-repos</id>
-			<name>Central Repository</name>
-			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
 
-		<repository>
-			<id>central-repos2</id>
-			<name>Central Repository 2</name>
-			<url>http://mvnrepo.code.taobao.org/nexus/content/repositories/snapshots/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>my-nexus</id>
+            <url>http://qtrj.i234.me:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>my-nexus</id>
+            <url>http://qtrj.i234.me:8081/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
 
-		<repository>
-			<id>springsource-repos</id>
-			<name>SpringSource Repository</name>
-			<url>http://mvnrepo.code.taobao.org/nexus/content/repositories/releases/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	
-		<repository>
-			<id>bitwalker.user-agent-utils.mvn.repo</id>
-			<url>https://nexus.jackpinetech.com/nexus/content/groups/public</url>
-			<!-- use snapshot version -->
-			<snapshots>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
-	</repositories>
+    <repositories>
+        <repository>
+            <id>my-nexus</id>
+            <name>maven 私服</name>
+            <url>http://qtrj.i234.me:8081/repository/maven-public/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
 
 
     <build>
